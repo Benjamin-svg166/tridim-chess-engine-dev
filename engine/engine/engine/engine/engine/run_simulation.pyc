@@ -1,0 +1,11 @@
+# run_simulation.py
+
+from engine.core_engine import CoreEngine
+
+def main():
+    engine = CoreEngine()
+    print("🔍 Simulating Fork Drill...\n")
+    engine.simulate_drill("fork")
+
+if __name__ == "__main__":
+    main()
